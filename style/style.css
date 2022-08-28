@@ -1,0 +1,90 @@
+body {
+    margin: 0
+}
+
+ul {
+
+    height: 60px;
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+li {
+    cursor: pointer;
+    padding: 10px;
+    display: inline;
+}
+.gmail {
+    display: inline-block;
+    flex-grow: 9
+}
+.icon1 {
+        margin-bottom: 1%;
+}
+.icon2 {
+    margin-top: 1%;
+}
+
+.container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 200px;
+    margin-top: 180px;
+    margin-left: 400px;
+    margin-right: auto;
+}
+.logo{
+    margin-left: 160px;
+}
+
+.input{
+    height: 40px;
+    width: 550px;
+    margin-top: 30px;
+    box-shadow: 1px 1.5px 4px gray;
+    border:double;
+    border-color: antiquewhite;
+    border-radius: 1cm;
+    
+}
+.input:focus{
+    border-color: #fff;
+    outline: 0;
+
+}
+
+.buttons{
+    
+    margin-top: 30px;
+    margin-left: 530px;
+    
+}
+
+.pesquisar{ 
+    cursor: pointer;
+    border: none;
+    border-radius: 2%;
+    background-color: #f8f9fa;
+    height: 50px;
+    width: 160px;
+}
+.pesquisar:hover{
+    box-shadow: 1px 1px 3px #c7c7c7;
+    border: whitesmoke;
+}
+
+.sorte{
+
+    cursor: pointer;
+    border: none;
+    background-color: #f8f9fa;
+    height: 50px;
+    width: 160px;
+}
+
+.sorte:hover{
+    box-shadow: 1px 1px 3px #c7c7c7;
+    border: whitesmoke;
+}
